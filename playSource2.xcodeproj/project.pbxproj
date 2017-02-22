@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50982911E5B17CA0050FF85 /* file.dae in Resources */ = {isa = PBXBuildFile; fileRef = C50982901E5B17CA0050FF85 /* file.dae */; };
+		C50982981E5B226F0050FF85 /* Screen Shot 2017-02-20 at 9.10.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = C50982971E5B226F0050FF85 /* Screen Shot 2017-02-20 at 9.10.35 PM.png */; };
 		C574F23C1E59CD04005F005E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C574F23B1E59CD04005F005E /* AppDelegate.swift */; };
 		C574F23E1E59CD04005F005E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C574F23D1E59CD04005F005E /* art.scnassets */; };
 		C574F2401E59CD04005F005E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C574F23F1E59CD04005F005E /* GameViewController.swift */; };
 		C574F2431E59CD04005F005E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C574F2411E59CD04005F005E /* Main.storyboard */; };
 		C574F2451E59CD04005F005E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C574F2441E59CD04005F005E /* Assets.xcassets */; };
 		C574F2481E59CD04005F005E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C574F2461E59CD04005F005E /* LaunchScreen.storyboard */; };
+		C574F2501E59CD0F005F005E /* untitled.scn in Resources */ = {isa = PBXBuildFile; fileRef = C574F24F1E59CD0F005F005E /* untitled.scn */; };
+		C574F2551E5A6BB0005F005E /* mosaic_tile_2_20141211_1255618069.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C574F2541E5A6BB0005F005E /* mosaic_tile_2_20141211_1255618069.jpg */; };
+		C574F2571E5A6D43005F005E /* interior_bathroom_360_20170109_1074223532.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C574F2561E5A6D43005F005E /* interior_bathroom_360_20170109_1074223532.jpg */; };
+		C574F25D1E5A6EF5005F005E /* T_Brick_Baked_AO.tga in Resources */ = {isa = PBXBuildFile; fileRef = C574F2591E5A6EF5005F005E /* T_Brick_Baked_AO.tga */; };
+		C574F25E1E5A6EF5005F005E /* T_Brick_Baked_D.tga in Resources */ = {isa = PBXBuildFile; fileRef = C574F25A1E5A6EF5005F005E /* T_Brick_Baked_D.tga */; };
+		C574F25F1E5A6EF5005F005E /* T_Brick_Baked_N.tga in Resources */ = {isa = PBXBuildFile; fileRef = C574F25B1E5A6EF5005F005E /* T_Brick_Baked_N.tga */; };
+		C574F2601E5A6EF5005F005E /* T_Brick_Baked_R.tga in Resources */ = {isa = PBXBuildFile; fileRef = C574F25C1E5A6EF5005F005E /* T_Brick_Baked_R.tga */; };
+		C574F2661E5A700D005F005E /* T_Concrete_Tadao_AO.tga in Resources */ = {isa = PBXBuildFile; fileRef = C574F2621E5A700D005F005E /* T_Concrete_Tadao_AO.tga */; };
+		C574F2671E5A700D005F005E /* T_Concrete_Tadao_D.tga in Resources */ = {isa = PBXBuildFile; fileRef = C574F2631E5A700D005F005E /* T_Concrete_Tadao_D.tga */; };
+		C574F2681E5A700D005F005E /* T_Concrete_Tadao_N.tga in Resources */ = {isa = PBXBuildFile; fileRef = C574F2641E5A700D005F005E /* T_Concrete_Tadao_N.tga */; };
+		C574F2691E5A700D005F005E /* T_Concrete_Tadao_R.tga in Resources */ = {isa = PBXBuildFile; fileRef = C574F2651E5A700D005F005E /* T_Concrete_Tadao_R.tga */; };
+		C574F26B1E5A7098005F005E /* 172694-foxixol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C574F26A1E5A7097005F005E /* 172694-foxixol.jpg */; };
+		C574F26D1E5A70A0005F005E /* 0VasnecovAM_MoskvaKonc17v.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C574F26C1E5A70A0005F005E /* 0VasnecovAM_MoskvaKonc17v.jpg */; };
+		C574F2711E5AF6D6005F005E /* SceneKit Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = C574F2701E5AF6D6005F005E /* SceneKit Scene.scn */; };
+		C58F0D401E5D5CFE002881B9 /* 52f76c85jw1du50emmzk9j.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58F0D3F1E5D5CFE002881B9 /* 52f76c85jw1du50emmzk9j.jpg */; };
+		C58F0D4C1E5D8C14002881B9 /* gold-scuffed-basecolor-boosted.png in Resources */ = {isa = PBXBuildFile; fileRef = C58F0D471E5D8C14002881B9 /* gold-scuffed-basecolor-boosted.png */; };
+		C58F0D4D1E5D8C14002881B9 /* gold-scuffed-basecolor.png in Resources */ = {isa = PBXBuildFile; fileRef = C58F0D481E5D8C14002881B9 /* gold-scuffed-basecolor.png */; };
+		C58F0D4E1E5D8C14002881B9 /* gold-scuffed-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = C58F0D491E5D8C14002881B9 /* gold-scuffed-metal.png */; };
+		C58F0D4F1E5D8C14002881B9 /* gold-scuffed-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C58F0D4A1E5D8C14002881B9 /* gold-scuffed-normal.png */; };
+		C58F0D501E5D8C14002881B9 /* gold-scuffed-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = C58F0D4B1E5D8C14002881B9 /* gold-scuffed-roughness.png */; };
+		C58F0D521E5D8DB1002881B9 /* interior_hdri_29_20150416_1169368110.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C58F0D511E5D8DB1002881B9 /* interior_hdri_29_20150416_1169368110.jpg */; };
+		C58F0D541E5D8FC9002881B9 /* sphericalBlurred.png in Resources */ = {isa = PBXBuildFile; fileRef = C58F0D531E5D8FC9002881B9 /* sphericalBlurred.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50982901E5B17CA0050FF85 /* file.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = file.dae; sourceTree = "<group>"; };
+		C50982961E5B18490050FF85 /* file1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = file1.scn; sourceTree = "<group>"; };
+		C50982971E5B226F0050FF85 /* Screen Shot 2017-02-20 at 9.10.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-02-20 at 9.10.35 PM.png"; sourceTree = "<group>"; };
+		C509829F1E5B27C00050FF85 /* file2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = file2.scn; sourceTree = "<group>"; };
 		C574F2381E59CD04005F005E /* playSource2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playSource2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C574F23B1E59CD04005F005E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C574F23D1E59CD04005F005E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +52,33 @@
 		C574F2441E59CD04005F005E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C574F2471E59CD04005F005E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C574F2491E59CD04005F005E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C574F24F1E59CD0F005F005E /* untitled.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = untitled.scn; sourceTree = "<group>"; };
+		C574F2531E5A6B20005F005E /* file.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = file.scn; sourceTree = "<group>"; };
+		C574F2541E5A6BB0005F005E /* mosaic_tile_2_20141211_1255618069.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mosaic_tile_2_20141211_1255618069.jpg; sourceTree = "<group>"; };
+		C574F2561E5A6D43005F005E /* interior_bathroom_360_20170109_1074223532.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = interior_bathroom_360_20170109_1074223532.jpg; sourceTree = "<group>"; };
+		C574F2591E5A6EF5005F005E /* T_Brick_Baked_AO.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Brick_Baked_AO.tga; sourceTree = "<group>"; };
+		C574F25A1E5A6EF5005F005E /* T_Brick_Baked_D.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Brick_Baked_D.tga; sourceTree = "<group>"; };
+		C574F25B1E5A6EF5005F005E /* T_Brick_Baked_N.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Brick_Baked_N.tga; sourceTree = "<group>"; };
+		C574F25C1E5A6EF5005F005E /* T_Brick_Baked_R.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Brick_Baked_R.tga; sourceTree = "<group>"; };
+		C574F2621E5A700D005F005E /* T_Concrete_Tadao_AO.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Concrete_Tadao_AO.tga; sourceTree = "<group>"; };
+		C574F2631E5A700D005F005E /* T_Concrete_Tadao_D.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Concrete_Tadao_D.tga; sourceTree = "<group>"; };
+		C574F2641E5A700D005F005E /* T_Concrete_Tadao_N.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Concrete_Tadao_N.tga; sourceTree = "<group>"; };
+		C574F2651E5A700D005F005E /* T_Concrete_Tadao_R.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = T_Concrete_Tadao_R.tga; sourceTree = "<group>"; };
+		C574F26A1E5A7097005F005E /* 172694-foxixol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "172694-foxixol.jpg"; sourceTree = "<group>"; };
+		C574F26C1E5A70A0005F005E /* 0VasnecovAM_MoskvaKonc17v.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0VasnecovAM_MoskvaKonc17v.jpg; sourceTree = "<group>"; };
+		C574F2701E5AF6D6005F005E /* SceneKit Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "SceneKit Scene.scn"; sourceTree = "<group>"; };
+		C58F0D3B1E5C95AE002881B9 /* file3.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = file3.scn; sourceTree = "<group>"; };
+		C58F0D3E1E5D5CB7002881B9 /* file4.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = file4.scn; sourceTree = "<group>"; };
+		C58F0D3F1E5D5CFE002881B9 /* 52f76c85jw1du50emmzk9j.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 52f76c85jw1du50emmzk9j.jpg; sourceTree = "<group>"; };
+		C58F0D451E5D8225002881B9 /* file5.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = file5.scn; sourceTree = "<group>"; };
+		C58F0D471E5D8C14002881B9 /* gold-scuffed-basecolor-boosted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold-scuffed-basecolor-boosted.png"; sourceTree = "<group>"; };
+		C58F0D481E5D8C14002881B9 /* gold-scuffed-basecolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold-scuffed-basecolor.png"; sourceTree = "<group>"; };
+		C58F0D491E5D8C14002881B9 /* gold-scuffed-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold-scuffed-metal.png"; sourceTree = "<group>"; };
+		C58F0D4A1E5D8C14002881B9 /* gold-scuffed-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold-scuffed-normal.png"; sourceTree = "<group>"; };
+		C58F0D4B1E5D8C14002881B9 /* gold-scuffed-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold-scuffed-roughness.png"; sourceTree = "<group>"; };
+		C58F0D511E5D8DB1002881B9 /* interior_hdri_29_20150416_1169368110.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = interior_hdri_29_20150416_1169368110.jpg; sourceTree = "<group>"; };
+		C58F0D531E5D8FC9002881B9 /* sphericalBlurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sphericalBlurred.png; sourceTree = "<group>"; };
+		C58F0D561E5D9DCB002881B9 /* sky_cube.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = sky_cube.exr; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +111,26 @@
 		C574F23A1E59CD04005F005E /* playSource2 */ = {
 			isa = PBXGroup;
 			children = (
+				C58F0D531E5D8FC9002881B9 /* sphericalBlurred.png */,
+				C58F0D561E5D9DCB002881B9 /* sky_cube.exr */,
+				C58F0D461E5D8C14002881B9 /* gold-scuffed-b */,
+				C50982971E5B226F0050FF85 /* Screen Shot 2017-02-20 at 9.10.35 PM.png */,
+				C574F26C1E5A70A0005F005E /* 0VasnecovAM_MoskvaKonc17v.jpg */,
+				C50982961E5B18490050FF85 /* file1.scn */,
+				C50982901E5B17CA0050FF85 /* file.dae */,
+				C509829F1E5B27C00050FF85 /* file2.scn */,
+				C58F0D3F1E5D5CFE002881B9 /* 52f76c85jw1du50emmzk9j.jpg */,
+				C58F0D3E1E5D5CB7002881B9 /* file4.scn */,
+				C58F0D451E5D8225002881B9 /* file5.scn */,
+				C58F0D3B1E5C95AE002881B9 /* file3.scn */,
+				C574F26A1E5A7097005F005E /* 172694-foxixol.jpg */,
+				C574F2611E5A700D005F005E /* Concrete_Tadao */,
+				C574F2581E5A6EF5005F005E /* Brick_baked */,
+				C574F2561E5A6D43005F005E /* interior_bathroom_360_20170109_1074223532.jpg */,
+				C574F2541E5A6BB0005F005E /* mosaic_tile_2_20141211_1255618069.jpg */,
+				C574F2531E5A6B20005F005E /* file.scn */,
+				C574F2701E5AF6D6005F005E /* SceneKit Scene.scn */,
+				C574F24F1E59CD0F005F005E /* untitled.scn */,
 				C574F23B1E59CD04005F005E /* AppDelegate.swift */,
 				C574F23D1E59CD04005F005E /* art.scnassets */,
 				C574F23F1E59CD04005F005E /* GameViewController.swift */,
@@ -65,6 +140,41 @@
 				C574F2491E59CD04005F005E /* Info.plist */,
 			);
 			path = playSource2;
+			sourceTree = "<group>";
+		};
+		C574F2581E5A6EF5005F005E /* Brick_baked */ = {
+			isa = PBXGroup;
+			children = (
+				C574F2591E5A6EF5005F005E /* T_Brick_Baked_AO.tga */,
+				C574F25A1E5A6EF5005F005E /* T_Brick_Baked_D.tga */,
+				C574F25B1E5A6EF5005F005E /* T_Brick_Baked_N.tga */,
+				C574F25C1E5A6EF5005F005E /* T_Brick_Baked_R.tga */,
+			);
+			path = Brick_baked;
+			sourceTree = "<group>";
+		};
+		C574F2611E5A700D005F005E /* Concrete_Tadao */ = {
+			isa = PBXGroup;
+			children = (
+				C574F2621E5A700D005F005E /* T_Concrete_Tadao_AO.tga */,
+				C574F2631E5A700D005F005E /* T_Concrete_Tadao_D.tga */,
+				C574F2641E5A700D005F005E /* T_Concrete_Tadao_N.tga */,
+				C574F2651E5A700D005F005E /* T_Concrete_Tadao_R.tga */,
+			);
+			path = Concrete_Tadao;
+			sourceTree = "<group>";
+		};
+		C58F0D461E5D8C14002881B9 /* gold-scuffed-b */ = {
+			isa = PBXGroup;
+			children = (
+				C58F0D511E5D8DB1002881B9 /* interior_hdri_29_20150416_1169368110.jpg */,
+				C58F0D471E5D8C14002881B9 /* gold-scuffed-basecolor-boosted.png */,
+				C58F0D481E5D8C14002881B9 /* gold-scuffed-basecolor.png */,
+				C58F0D491E5D8C14002881B9 /* gold-scuffed-metal.png */,
+				C58F0D4A1E5D8C14002881B9 /* gold-scuffed-normal.png */,
+				C58F0D4B1E5D8C14002881B9 /* gold-scuffed-roughness.png */,
+			);
+			path = "gold-scuffed-b";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +238,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				C574F23E1E59CD04005F005E /* art.scnassets in Resources */,
+				C58F0D501E5D8C14002881B9 /* gold-scuffed-roughness.png in Resources */,
+				C574F25D1E5A6EF5005F005E /* T_Brick_Baked_AO.tga in Resources */,
+				C58F0D4C1E5D8C14002881B9 /* gold-scuffed-basecolor-boosted.png in Resources */,
 				C574F2481E59CD04005F005E /* LaunchScreen.storyboard in Resources */,
+				C58F0D4E1E5D8C14002881B9 /* gold-scuffed-metal.png in Resources */,
+				C574F2671E5A700D005F005E /* T_Concrete_Tadao_D.tga in Resources */,
+				C574F26B1E5A7098005F005E /* 172694-foxixol.jpg in Resources */,
 				C574F2451E59CD04005F005E /* Assets.xcassets in Resources */,
+				C574F25F1E5A6EF5005F005E /* T_Brick_Baked_N.tga in Resources */,
+				C574F2501E59CD0F005F005E /* untitled.scn in Resources */,
+				C58F0D401E5D5CFE002881B9 /* 52f76c85jw1du50emmzk9j.jpg in Resources */,
+				C574F2711E5AF6D6005F005E /* SceneKit Scene.scn in Resources */,
+				C58F0D4D1E5D8C14002881B9 /* gold-scuffed-basecolor.png in Resources */,
+				C50982981E5B226F0050FF85 /* Screen Shot 2017-02-20 at 9.10.35 PM.png in Resources */,
+				C58F0D4F1E5D8C14002881B9 /* gold-scuffed-normal.png in Resources */,
+				C574F2661E5A700D005F005E /* T_Concrete_Tadao_AO.tga in Resources */,
 				C574F2431E59CD04005F005E /* Main.storyboard in Resources */,
+				C58F0D541E5D8FC9002881B9 /* sphericalBlurred.png in Resources */,
+				C50982911E5B17CA0050FF85 /* file.dae in Resources */,
+				C574F2691E5A700D005F005E /* T_Concrete_Tadao_R.tga in Resources */,
+				C574F26D1E5A70A0005F005E /* 0VasnecovAM_MoskvaKonc17v.jpg in Resources */,
+				C574F2681E5A700D005F005E /* T_Concrete_Tadao_N.tga in Resources */,
+				C574F2601E5A6EF5005F005E /* T_Brick_Baked_R.tga in Resources */,
+				C574F2551E5A6BB0005F005E /* mosaic_tile_2_20141211_1255618069.jpg in Resources */,
+				C574F2571E5A6D43005F005E /* interior_bathroom_360_20170109_1074223532.jpg in Resources */,
+				C58F0D521E5D8DB1002881B9 /* interior_hdri_29_20150416_1169368110.jpg in Resources */,
+				C574F25E1E5A6EF5005F005E /* T_Brick_Baked_D.tga in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +440,7 @@
 				C574F24E1E59CD05005F005E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,26 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="playSource2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Cei-gA-s71"/>
-                        <viewControllerLayoutGuide type="bottom" id="O1X-57-Ctf"/>
+                        <viewControllerLayoutGuide type="top" id="R0b-8w-r4T"/>
+                        <viewControllerLayoutGuide type="bottom" id="IGI-cy-fv3"/>
                     </layoutGuides>
-                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx">
+                    <view key="view" contentMode="scaleToFill" id="Gdh-of-Yzk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </sceneKitView>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preferredRenderingAPI="1" translatesAutoresizingMaskIntoConstraints="NO" id="8qA-lH-bG4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </sceneKitView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oR7-84-4Qm">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vT3-xB-eYm">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2C-dA-T4H">
+                                            <rect key="frame" x="8" y="10" width="92" height="30"/>
+                                            <state key="normal" title="ColorGrading"/>
+                                            <connections>
+                                                <action selector="ButtonTapped:" destination="BV1-FR-VrT" eventType="touchUpInside" id="zSn-iS-pas"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="O2C-dA-T4H" secondAttribute="trailing" constant="275" id="B7L-HM-HCK"/>
+                                        <constraint firstItem="O2C-dA-T4H" firstAttribute="top" secondItem="vT3-xB-eYm" secondAttribute="top" constant="10" id="KBS-Yx-KmE"/>
+                                        <constraint firstItem="O2C-dA-T4H" firstAttribute="leading" secondItem="vT3-xB-eYm" secondAttribute="leading" constant="8" id="RnP-JU-Jlg"/>
+                                        <constraint firstAttribute="bottom" secondItem="O2C-dA-T4H" secondAttribute="bottom" constant="10" id="cw6-Zd-fQB"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="zFJ-PX-m5i"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8qA-lH-bG4" secondAttribute="trailing" id="KKg-ZM-G3B"/>
+                            <constraint firstItem="IGI-cy-fv3" firstAttribute="top" secondItem="oR7-84-4Qm" secondAttribute="bottom" id="Kuo-on-adg"/>
+                            <constraint firstItem="oR7-84-4Qm" firstAttribute="leading" secondItem="Gdh-of-Yzk" secondAttribute="leading" id="MaJ-wg-u6z"/>
+                            <constraint firstItem="IGI-cy-fv3" firstAttribute="top" secondItem="8qA-lH-bG4" secondAttribute="bottom" id="NEB-oE-EDC"/>
+                            <constraint firstAttribute="trailing" secondItem="oR7-84-4Qm" secondAttribute="trailing" id="Y6i-4R-HCR"/>
+                            <constraint firstItem="8qA-lH-bG4" firstAttribute="top" secondItem="Gdh-of-Yzk" secondAttribute="top" id="fBT-eH-BLK"/>
+                            <constraint firstItem="8qA-lH-bG4" firstAttribute="leading" secondItem="Gdh-of-Yzk" secondAttribute="leading" id="iL8-Vt-6li"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scnView" destination="8qA-lH-bG4" id="tk3-On-8FR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
         </scene>
     </scenes>
 </document>
